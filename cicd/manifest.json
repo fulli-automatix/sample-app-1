@@ -1,16 +1,18 @@
 {
-   "eBooks":[
-      {
-         "language":"Pascal",
-         "edition":"third"
-      },
-      {
-         "language":"Python",
-         "edition":"four"
-      },
-      {
-         "language":"SQL",
-         "edition":"second"
-      }
-   ]
+  "$schema": "",
+  "meta": {
+    "name": "hk-gba-biz-handler"
+  },
+  "project": {
+    "environment": "dev",
+    "deploymentBrands": [
+      "hsbc"
+    ],
+    "regions": [
+      "HK"
+    ]
+  },
+  "ci": {
+    "repo": "https://github.com"
+  }
 }
