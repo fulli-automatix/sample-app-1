@@ -32,3 +32,13 @@ data "aws_subnet_ids" "private_subnets" {
     Type = "private-subnets"
   }
 }
+
+data "terraform_remote_state" "shared-infra" {
+  backend = "s3"
+  config = {
+    bucket = "shared-tf-states-912969828712"
+    key    = "shared-infra-dev"
+    region = "eu-west-1"
+  }
+
+}

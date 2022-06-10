@@ -1,7 +1,7 @@
 data "aws_ami" "amazon_ami" {
 
   most_recent = true
-  owners = ["amazon"]
+  owners      = ["amazon"]
 
   filter {
     name   = "virtualization-type"
@@ -15,7 +15,7 @@ data "aws_ami" "amazon_ami" {
 }
 
 data "aws_vpc" "main_vpc" {
- id = var.vpc_id
+  id = var.vpc_id
 }
 data "aws_subnet_ids" "public_subnets" {
   vpc_id = var.vpc_id

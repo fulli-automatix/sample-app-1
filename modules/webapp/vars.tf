@@ -1,5 +1,5 @@
 variable "default_tags" {
-  type = map
+  type = map(any)
 }
 
 variable "vpc_id" {

@@ -18,14 +18,14 @@ resource "aws_lb" "web_alb" {
 }
 
 resource "aws_security_group" "lb_sg" {
-  name = "${var.default_tags["Environment"]}-lb-sg"
+  name        = "${var.default_tags["Environment"]}-lb-sg"
   description = "Security group governing traffic to and from Application load balancer"
-  vpc_id = var.vpc_id
+  vpc_id      = var.vpc_id
 
   ingress {
-    from_port = 80
-    protocol  = "tcp"
-    to_port   = 80
+    from_port   = 80
+    protocol    = "tcp"
+    to_port     = 80
     cidr_blocks = ["0.0.0.0/0"]
   }
 
@@ -37,9 +37,9 @@ resource "aws_security_group" "lb_sg" {
   tags = merge(
     var.default_tags,
     {
-    Name = "${var.default_tags["Environment"]}-lb-sg"
-  }
-)
+      Name = "${var.default_tags["Environment"]}-lb-sg"
+    }
+  )
 }
 
 
@@ -63,7 +63,7 @@ resource "aws_lb_target_group" "lb_target_group" {
 }
 
 resource "aws_lb_target_group_attachment" "lb_target_group_attachment" {
-  for_each = aws_instance.web_server
+  for_each         = aws_instance.web_server
   target_group_arn = aws_lb_target_group.lb_target_group.arn
   target_id        = aws_instance.web_server[each.key].id
   port             = 80

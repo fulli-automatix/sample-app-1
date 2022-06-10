@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d70e2adc-6a36-4ce4-9868-643dffa45908" name="Changes" comment="" />
+    <list default="true" id="01a7fc6b-e1cf-4dff-9ef6-f21319cf5564" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dev/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/build/dev/data.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/webapp/alb.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/webapp/alb.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/webapp/data.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/webapp/data.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/webapp/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/webapp/ec2.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/webapp/vars.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/webapp/vars.tf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,26 +27,29 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="28h3CrAOo2mXobfhvmLPoZhfhiK" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2AO7xc285PKOhbHXBQAxxr67x3D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d70e2adc-6a36-4ce4-9868-643dffa45908" name="Changes" comment="" />
-      <created>1651654868735</created>
+      <changelist id="01a7fc6b-e1cf-4dff-9ef6-f21319cf5564" name="Changes" comment="" />
+      <created>1654869026594</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651654868735</updated>
+      <updated>1654869026594</updated>
     </task>
     <servers />
   </component>
