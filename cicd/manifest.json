@@ -1,0 +1,18 @@
+{
+  "$schema": "",
+  "meta": {
+    "name": "hk-gba-biz-handler"
+  },
+  "project": {
+    "environment": "dev",
+    "deploymentBrands": [
+      "hsbc"
+    ],
+    "regions": [
+      "HK"
+    ]
+  },
+  "ci": {
+    "repo": "https://github.com"
+  }
+}
